@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Destinations | Stories of Sri Lanka</title>
+    
+    <style>
+        /* General Body and Layout */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header and Navigation (Reused from about.html for consistency) */
+        header {
+            background: #0077b6; /* Travel Blue */
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 0.5rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: #0096c7;
+        }
+
+        /* Destination Grid Layout */
+        .destination-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 30px;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        /* Destination Card Styles */
+        .destination-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .destination-card img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        .destination-card h3 {
+            color: #0077b6;
+            padding: 10px 15px 5px;
+            margin: 0;
+        }
+
+        .destination-card p, .destination-card h4 {
+            padding: 0 15px;
+        }
+
+        .destination-card ul {
+            list-style: disc;
+            margin: 0;
+            padding: 0 35px 15px;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Travel Stories</h1>
+        <nav>
+            <a href="about.html">About Me</a>
+            <a href="destinations.html">Destinations</a>
+        </nav>
+    </header>
+
+    <main class="destination-grid">
+        <article class="destination-card">
+            <img src="Sigiriya.jpg" alt="Sigiriya Lion Rock, Sri Lanka">
+            <h3>Sigiriya (Lion Rock): The Eighth Wonder</h3>
+            <p>
+                A majestic rock fortress rising 200 meters from the jungle floor, Sigiriya is a UNESCO World Heritage Site known for its ancient palace ruins, stunning water gardens, and beautiful, historic frescoes. It offers a breathtaking 360-degree view of the cultural triangle.
+            </p>
+
+            <h4>Highlights & Activities:</h4>
+            <ul>
+                <li>Climb the **Lion Paw Staircase** to the summit.</li>
+                <li>View the **Sigiriya Damsels** (frescoes) halfway up.</li>
+                <li>Walk through the symmetrical **Water Gardens**.</li>
+                <li>Visit the nearby **Dambulla Cave Temple** (day trip).</li>
+            </ul>
+        </article>
+
+        <article class="destination-card">
+            <img src="kandy.jpg" alt="Kandy Temple of the Tooth">
+            <h3>Kandy: The Cultural Heart of Sri Lanka</h3>
+            <p>
+                Nestled among the rolling tea-covered hills, Kandy is the last capital of the ancient kings' era. It is home to one of Buddhism’s most sacred sites and serves as the perfect base for exploring Sri Lanka's central highlands and colonial history.
+            </p>
+
+            <h4>Highlights & Activities:</h4>
+            <ul>
+                <li>Visit the **Temple of the Sacred Tooth Relic** (Sri Dalada Maligawa).</li>
+                <li>Stroll around the beautiful, man-made **Kandy Lake**.</li>
+                <li>Explore the exotic flora at the **Royal Botanic Gardens**.</li>
+                <li>Take the famous scenic train ride from **Kandy to Ella**.</li>
+            </ul>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 PS21019 Travel Blog</p>
+    </footer>
+</body>
+</html>
